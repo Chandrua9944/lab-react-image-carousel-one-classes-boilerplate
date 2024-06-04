@@ -1,1 +1,64 @@
 /* write your carousel css in this file */
+/* write your carousel css in this file */
+
+.image-box{
+    height: 700px;
+    width: 850px;
+    position: absolute;
+}
+
+img{
+    height: 700px;
+    width: 850px;
+}
+
+.left-arrow{
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.right-arrow{
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.symbol{
+    position: absolute;
+    top: 0;
+    right: 100;
+    left: 100;
+    bottom: 0;
+    width: 55px;
+    background-color: rgb(129,126,126);
+    opacity: 0.7;
+    cursor: pointer;
+    height: 700px;
+}
+
+#head{
+    top: 35%;
+    font-size: 65px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(195,194,194,0.7);
+    opacity: 0.9;
+    border-radius: 20px;
+    text-align: center;
+}
+
+#text{
+    top: 80%;
+    font-size: 30px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(195,194,194,0.7);
+    opacity: 0.9;
+    border-radius: 20px;
+    text-align: center;
+}
